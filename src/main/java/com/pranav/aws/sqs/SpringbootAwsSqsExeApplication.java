@@ -1,4 +1,4 @@
-package com.javatechie.aws.sqs;
+package com.pranav.aws.sqs;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,7 +32,7 @@ public class SpringbootAwsSqsExeApplication {
         queueMessagingTemplate.send(endpoint, MessageBuilder.withPayload(message).build());
     }
 
-    @SqsListener("javatechie-queue")
+    @SqsListener("pranav-java-queue")
     public void loadMessageFromSQS(String message)  {
         logger.info("message from SQS Queue {}",message);
     }

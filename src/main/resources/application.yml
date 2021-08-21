@@ -4,7 +4,7 @@ cloud:
       static: ap-south-1
       auto: false
     credentials:
-      access-key: 
-      secret-key: 
+      access-key: AKIATKYNDDQWOM66NF3F
+      secret-key: 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
     end-point:
-      uri: 
+      uri: https://sqs.ap-south-1.amazonaws.com/229271346220/pranav-java-queue

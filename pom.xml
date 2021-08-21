@@ -8,11 +8,11 @@
 		<version>2.3.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.javatechie</groupId>
+	<groupId>com.pranav</groupId>
 	<artifactId>springboot-aws-sqs-exe</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>springboot-aws-sqs-exe</name>
-	<description>Demo project for Spring Boot</description>
+	<description>AWS SQS Demo With Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
